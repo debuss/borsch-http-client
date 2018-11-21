@@ -1,0 +1,22 @@
+{
+  "name": "borsch/http-client",
+  "description": "An implementation of PSR-18 HTTP Client.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandre DEBUSSCHERE",
+      "email": "zizilex@gmail.com"
+    }
+  ],
+  "require": {
+    "psr/http-client": "^1.0",
+    "psr/http-factory": "^1.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Borsch\\": "src/"
+    }
+  }
+}
